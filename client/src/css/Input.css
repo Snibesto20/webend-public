@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+    --font-display: "Inter", sans-serif;
+    --font-extra: "Playfair Display", sans-serif;
+    --color-carbon-black: #1B1B1B;
+    --color-dark-coffee: #3B2A20;
+    --color-dust-grey: #DBD3C9;
+}
+
+@layer base {
+    * {
+        @apply scroll-smooth;
+    }
+
+    button {
+        @apply select-none cursor-pointer;
+    }
+
+}
