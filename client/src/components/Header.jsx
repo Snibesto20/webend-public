@@ -16,7 +16,6 @@ export default function Header() {
     const pricingSection = document.getElementById("pricing")
     if (pricingSection) {
       const rect = pricingSection.getBoundingClientRect()
-      // Tikriname, ar navigacija (80px aukščio) yra virš tamsios sekcijos
       setIsDarkSection(rect.top <= 80 && rect.bottom >= 80)
     }
   })

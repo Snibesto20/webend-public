@@ -10,7 +10,7 @@ function ProjectCard({ title, category, img, isSquare, url }) {
   return (
     <motion.div layout initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="w-full relative group cursor-pointer" onClick={handleProjectClick}>
       <div className={`overflow-hidden mb-3 bg-[#A89F94]/10 ${isSquare ? 'aspect-square' : 'aspect-video'}`}>
-        <img src={img} alt={title} className="w-full h-full wrap-anywhere object-cover filter contrast-[1.1] brightness-[0.85] group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-400" />
+        <img src={img} alt={title} loading="lazy" className="w-full h-full wrap-anywhere object-cover filter contrast-[1.1] brightness-[0.85] group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-400" />
       </div>
       <div className="flex flex-col gap-0.5">
         <h1 className="text-xl font-medium wrap-anywhere pr-1 text-carbon-black">

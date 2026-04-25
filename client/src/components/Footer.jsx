@@ -5,12 +5,10 @@ export default function Footer() {
     <footer className="py-24 md:py-32 px-6 md:px-16 lg:px-24 bg-dark-coffee text-dust-grey">
       <div className="max-w-[1440px] mx-auto">
         <div className="relative h-fit mb-24 overflow-hidden md:overflow-visible">
-          {/* Padidinta minimali riba iki 5.5rem mobiliems įrenginiams */}
-          <h2 className="font-extra text-[clamp(5.5rem,15vw,12rem)] select-none text-dust-grey/5 leading-[0.8] uppercase tracking-tighter">
+          <h2 className="font-extra text-[clamp(4.5rem,15vw,12rem)] select-none text-dust-grey/5 leading-[0.8] uppercase tracking-tighter">
             WEBEND
           </h2>
-          {/* Padidinta minimali riba iki 1.75rem mobiliems įrenginiams */}
-          <p className="absolute left-0 -bottom-1 md:-bottom-2 whitespace-nowrap font-extra text-[clamp(1.75rem,4vw,3.75rem)] text-dust-grey uppercase">
+          <p className="absolute left-0 -bottom-1 md:-bottom-2 whitespace-nowrap font-extra text-[clamp(1.3rem,4vw,3.75rem)] text-dust-grey uppercase">
             Dizainas, kuris <span className="italic text-[#A89F94]">turi svorį.</span>
           </p>
         </div>
